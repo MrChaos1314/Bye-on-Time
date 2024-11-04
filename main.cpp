@@ -53,6 +53,7 @@ struct tm start_time_prompt()
     //change time to start_time of user_input
     while(true)
     {
+        CLEAR_SCREEN;
         std::cout << "When do u want to start (Format: HH:MM:SS): ";
         std::cin >> input;
         if(is_format_correct(input))
